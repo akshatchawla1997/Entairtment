@@ -1,0 +1,29 @@
+.header{
+     width:100%;
+     cursor:pointer;
+     position: fixed;
+     display: flex;
+     justify-content: center;
+     text-transform: uppercase;
+     background-color: blue;
+     font-family: "Montserrat",sans-serif;
+     font-size: 5vh;
+     padding-bottom: 15px;
+     box-shadow: 0px 1px 5px black;
+     color: white;
+     z-index: 100;
+
+}
+.BottomNavigation{
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+     background-color: darkblue;
+     align-items: center;
+}
+@media (max-width:1000px){
+     .header{
+          padding-top: 15px;
+          font-size: 6.4vw;
+     }
+}
