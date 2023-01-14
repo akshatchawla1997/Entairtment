@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Header.css'
+
 export const Header = () => {
      return ( 
           <>
@@ -8,7 +9,6 @@ export const Header = () => {
                     Entertaintments
                </header>
           </div>
-          <h1>sdfghj</h1>
           </>
       );
 }

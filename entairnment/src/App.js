@@ -1,14 +1,21 @@
 
+import { Container } from '@mui/system';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Footer from './Components/Footer/Footer';
 import { Header } from './Components/Header/Header';
-
+import MainNav from './Components/Header/MainNav';
 function App() {
   return (
+    <>
+    <BrowserRouter>
+    <Header/>
+    <Container>Movie app</Container>
     <div className="App">
-      <Header/>
-      <Footer/>
+      <MainNav/>
+      
     </div>
+    </BrowserRouter>
+    </>
   );
 }
 
