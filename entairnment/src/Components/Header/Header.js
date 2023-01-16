@@ -6,7 +6,7 @@ export const Header = () => {
           <>
           <div>
                <header className='header'>
-                    Entertaintment
+                    Entertaintments
                </header>
           </div>
           </>
