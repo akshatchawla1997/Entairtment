@@ -1,9 +1,11 @@
 import React from 'react'
-// import "../pages.css";
+import "../pages.css";
 
 function TvShows() {
   return (
-    <div className='tvshows'>TvShows</div>
+    <div className='pageTitle'>
+     <h1>TV Series</h1>
+    </div>
   )
 }
 
