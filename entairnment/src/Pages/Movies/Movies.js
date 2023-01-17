@@ -1,9 +1,11 @@
 import React from 'react'
-// import "../pages.css";
+import "../pages.css";
 
 function Movies() {
   return (
-    <div className='movies'>Movies</div>
+     <div className='pageTitle'>
+     <h1 >Movies</h1>
+    </div>
   )
 }
 

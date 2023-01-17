@@ -1,9 +1,11 @@
 import React from 'react'
-// import "../pages.css";
+import "../pages.css";
 
 function Search() {
   return (
-    <div className='searchs'>Search</div>
+    <div className='pageTitle'>
+     <h1>Search</h1>
+    </div>
   )
 }
 
