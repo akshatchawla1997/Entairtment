@@ -5,7 +5,7 @@ export const Header = () => {
      return ( 
           <>
           <div>
-               <header className='header'>
+               <header onClick={()=>window.scroll(0,0)} className='header'>
                     Entertaintments
                </header>
           </div>
