@@ -6,7 +6,7 @@ export const Header = () => {
           <>
           <div>
                <header onClick={()=>window.scroll(0,0)} className='header'>
-                    Entertaintment
+                 Entertaintment
                </header>
           </div>
           </>
