@@ -10,11 +10,11 @@
      font-family: "Montserrat",sans-serif;
 }
 
-.media:hover{
+/* .media:hover{
      background-color: white;
      color:black;
      transform: scale(1.5);
-}
+} */
 
 @media (max-width:550px){
      .media{
